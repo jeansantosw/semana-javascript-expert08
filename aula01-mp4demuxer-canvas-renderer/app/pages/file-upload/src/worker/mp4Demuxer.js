@@ -9,7 +9,7 @@ export default class Mp4DeMuxer {
    *
    * @param {ReadableStream} stream
    * @param {object} options
-   * @param {(config: object) => void} object.onConfig
+   * @param {(config: object) => void} object.onConfig // options.onConfig
    *
    * @returns {Promise<void>}
    */
